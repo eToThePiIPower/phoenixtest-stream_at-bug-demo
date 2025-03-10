@@ -22,3 +22,6 @@ config :phoenix, :plug_init_mode, :runtime
 # Enable helpful, but potentially expensive runtime checks
 config :phoenix_live_view,
   enable_expensive_runtime_checks: true
+
+# Specify the endpoint PhoenixTest uses for routing requests:
+config :phoenix_test, :endpoint, TestWeb.Endpoint
